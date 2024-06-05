@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Card Swiping",
+    "description": "Extension to add time difference in Card Swiping page",
+    "version": "1.0",
+    "action": {
+        "default_popup": "card-swiping.html",
+        "default_icon": "clock.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "http://beo-system.com/Modules/C/*"
+            ]
+        }
+    ]
+}
