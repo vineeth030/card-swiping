@@ -11,7 +11,7 @@
         {
             "js": ["scripts/content.js"],
             "matches": [
-                "http://beo-system.com/Modules/C/*"
+                "http://beo-system.com/Modules/C/AccessCardSwiping_*"
             ]
         }
     ]
